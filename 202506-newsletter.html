@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Email Newsletter</title>
+  <title>Data Chai Newsletter #3</title>
   <style>
     body, table, td, a {
       -webkit-text-size-adjust: 100%;
@@ -23,6 +23,10 @@
       margin: 0 !important;
       padding: 0 !important;
       width: 100% !important;
+      background-image: url('https://github.com/reiwakayama/newsletter/blob/main/background.jpg?raw=true');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
     }
     @media screen and (max-width: 600px) {
       .main-container {
@@ -38,49 +42,98 @@
         width: 100% !important;
         max-width: 100% !important;
       }
+      .hero-padding {
+        padding: 15px !important;
+      }
+      .text-section {
+        padding: 20px 15px !important;
+      }
     }
   </style>
 </head>
-<body style="background-color: #f4f4f4; font-family: Arial, sans-serif;">
+<body style="font-family: Arial, sans-serif; background-image: url('https://github.com/reiwakayama/newsletter/blob/main/background.jpg?raw=true'); background-size: cover; background-repeat: no-repeat; background-position: center;">
 
   <!-- Wrapper Table -->
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-      <!-- Apply top padding here to create space ABOVE the white box -->
-      <td align="center" bgcolor="#f4f4f4" style="padding-top: 40px;">
+      <td align="center" style="padding-top: 40px;">
         
-        <!-- Main Container (White Box) -->
+        <!-- Main Container -->
         <table border="0" cellpadding="0" cellspacing="0" width="600" class="main-container" style="background-color: #ffffff; padding: 20px;">
 
           <!-- Header -->
           <tr>
             <td align="center" style="padding: 20px 0;">
-              <h1 style="margin: 0; font-size: 24px; color: #333;">Your Company Newsletter</h1>
+              <h1 style="margin: 0; font-size: 24px; color: #333;">Data Chai Newsletter #3</h1>
+              <p>June 10, 2025</p>
             </td>
           </tr>
 
           <!-- Hero Image -->
           <tr>
-            <td align="center">
-              <img src="https://via.placeholder.com/600x300" alt="Hero Image" class="responsive-img" width="600" style="display: block; border: 0; max-width: 100%; height: auto;">
+            <td align="center" class="hero-padding" style="padding: 0 20px 0px 20px;">
+              <img src="https://raw.githubusercontent.com/reiwakayama/newsletter/refs/heads/main/202506-newsletter.webp" class="responsive-img" width="600" style="display: block; border: 0; max-width: 100%; height: auto;">
             </td>
           </tr>
 
           <!-- Text Section -->
           <tr>
-            <td style="padding: 20px; color: #555; font-size: 16px; line-height: 1.6;">
-              <p>Hello Subscriber,</p>
+            <td class="text-section" style="padding: 20px 30px; color: #555; font-size: 16px; line-height: 1.6;">
               <p>Welcome to our monthly newsletter! We're excited to share our latest updates, offers, and stories with you.</p>
-              <p>Stay tuned for more and thank you for being part of our community!</p>
-              <p>— The Team</p>
+              
+              <h3 style="margin-top: 25px;">✨ June Updates</h3>
+              <ul style="margin: 0; padding: 0 0 0 20px; color: #555;">
+                <li style="margin-bottom: 10px;">New blog posts:
+                    <a href="https://www.datachai.com/post/what-is-performance-max-pmax-in-google-ads">What is Performance Max (PMax) in Google Ads?</a>,
+                    <a href="https://www.datachai.com/post/how-to-execute-sftp-file-transfers-using-python-and-paramiko">How to Execute SFTP File Transfers Using Python and Paramiko</a>,
+                    Why I Launched a Personal Email Newsletter</li>
+                <li style="margin-bottom: 10px;">Notice anything different this month? I’ve migrated to Brevo, which gives me the freedom to customize and code the entire email in html.</li>
+              </ul>
+              
+              <h3 style="margin-top: 25px;">🤔 Things to share</h3>
+              <ul style="margin: 0; padding: 0 0 0 20px; color: #555;">
+                <li style="margin-bottom: 10px;"><a href="https://www.amazon.com/Dont-Trust-Your-Gut-Really/dp/0062880918">Don't Trust Your Gut</a> is the best book I've read in awhile. Highly recommend for those that want data-driven answers to life's biggest problems.</li>
+                <li style="margin-bottom: 10px;">Upcoming webinar on June 15th</li>
+              </ul>
+              
+              <h3 style="margin-top: 25px;">📫 What's Coming in July</h3>
+              <ul style="margin: 0; padding: 0 0 0 20px; color: #555;">
+                <li style="margin-bottom: 10px;">I'm working on a “state of digital marketing” report, exploring current trends and sentiments of the industry. If you work in digital marketing at all, I'd super appreciate your participation in a 5 minute survey <a href="https://forms.gle/hK6Enma6FBb7Suog7">here</a>.</li>
+                <li style="margin-bottom: 10px;">Upcoming webinar on June 15th</li>
+              </ul>
             </td>
           </tr>
 
           <!-- Footer -->
           <tr>
             <td align="center" bgcolor="#eeeeee" style="padding: 20px; font-size: 14px; color: #888;">
-              <p style="margin: 5px 0;"><a href="#" style="color: #888;">Unsubscribe</a> | <a href="#" style="color: #888;">View in Browser</a></p>
-              <p style="margin: 0;">&copy; 2025 Data Chai</p>
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 10px;">
+                <tr>
+                  <td align="center" width="33%" style="padding: 0 5px;">
+                    <a href="https://www.datachai.com/article-submission" style="color: #888; text-decoration: none;">👩‍💻 Submit an article</a>
+                  </td>
+                  <td align="center" width="33%" style="padding: 0 5px;">
+                    <a href="https://www.datachai.com/newsletter" style="color: #888; text-decoration: none;">💌 Forward to a friend</a>
+                  </td>
+                  <td align="center" width="33%" style="padding: 0 5px;">
+                    <a href="https://www.datachai.com/" style="color: #888; text-decoration: none;">🏠️ datachai.com</a>
+                  </td>
+                </tr>
+              </table>
+              
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 10px;">
+                <tr>
+                  <td align="center" width="33%" style="padding: 0 5px;">
+                    <a href="https://buymeacoffee.com/datachai" style="color: #888; text-decoration: none;">☕ Buy me a coffee</a>
+                  </td>
+                  <td align="center" width="33%" style="padding: 0 5px;">
+                    <a href="#" style="color: #888; text-decoration: none;">🌎 View in browser</a>
+                  </td>
+                  <td align="center" width="33%" style="padding: 0 5px;">
+                    <a href="#" style="color: #888; text-decoration: none;">🔕 Unsubscribe</a>
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
 
